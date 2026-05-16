@@ -2,14 +2,15 @@
 
 Modular DIN-rail electronics enclosure for Millennium CNC builds—designed to pair with [Milo V2 / Miley V2](https://github.com/MillenniumMachines/Milo-V2.0).
 
-**Repository:** [github.com/MillenniumMachines/Millennium-Universal-Electronics-Box](https://github.com/MillenniumMachines/Millennium-Universal-Electronics-Box)
+**Repository:** [github.com/MillenniumMachines/Universal-Electronics-Box](https://github.com/MillenniumMachines/Universal-Electronics-Box)
 
-This repository contains **STLs**, **panel DXFs**, **master CAD**, the **bill of materials** spreadsheet, **print list**, and the **wiring reference PDF**. Human-readable BOM, print settings, and part tables live on the [Millennium Machines documentation site](https://millenniummachines.github.io/docs/ueb/).
+This repository contains **STLs**, **panel DXFs**, **master CAD**, the **bill of materials** spreadsheet, **print list**, and the **wiring reference PDF**. Human-readable BOM, print settings, and part tables live on the [UEB section of the Millennium Machines documentation site](https://millenniummachines.github.io/docs/ueb/); see also the [main documentation hub](https://millenniummachines.github.io/docs/) for other Millennium projects.
 
 ## Documentation
 
 | Topic | Location |
 | --- | --- |
+| All Millennium Machines guides | [Documentation hub](https://millenniummachines.github.io/docs/) |
 | Overview, safety, repo layout | [UEB docs — Overview](https://millenniummachines.github.io/docs/ueb/) |
 | Bill of materials and contactor options | [Sourcing guide](https://millenniummachines.github.io/docs/ueb/bom/sourcing_guide/) |
 | Print profiles and printed parts | [Printing guide](https://millenniummachines.github.io/docs/ueb/printing/print_guide/) |
@@ -58,6 +59,7 @@ The wiring PDF is titled **V2 / V1.6 wiring reference**. It covers mains inlet, 
 ## Related projects
 
 - [Milo-V2.0](https://github.com/MillenniumMachines/Milo-V2.0) — mechanical mill (electronics not included in that repo)
+- [Millennium Machines documentation](https://millenniummachines.github.io/docs/) — published guides (UEB, Milo, and other projects)
 - [millenniummachines.github.io](https://github.com/MillenniumMachines/millenniummachines.github.io) — documentation site source
 
 ## License
