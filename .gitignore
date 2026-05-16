@@ -1,0 +1,3 @@
+# CAD: track zip archives only (large source CAD files stay local)
+CAD/*
+!CAD/*.zip
