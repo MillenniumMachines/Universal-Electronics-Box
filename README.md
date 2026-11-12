@@ -56,6 +56,19 @@ The wiring PDF is titled **V2 / V1.6 wiring reference**. It covers mains inlet, 
 
 > **Warning:** This enclosure operates at **mains voltage**. Use a suitable E-stop, correct wire gauges for your region, and qualified help if you are unsure. Do not energize the cabinet until wiring has been checked.
 
+### Cabinet fan
+
+The PDF connects the cabinet fan to the Scylla's **AUX1** output (pin `PA_5`). The Scylla configuration in [RRF-Configs](https://github.com/MillenniumMachines/RRF-Configs) uses `PA_5` by default.
+
+The fan also works on **AUX0** (pin `PA_4`). The pin in `fans.g` must match the output the fan is plugged into:
+
+```gcode
+M950 F0 C"PA_5" Q500   ; AUX1 (default)
+M950 F0 C"PA_4" Q500   ; AUX0
+```
+
+RRF-Configs releases up to `v03.11.25-stable` use `PA_4`. If you start from one of those and your fan is on AUX1, change the pin to `PA_5`.
+
 ## Related projects
 
 - [Milo-V2.0](https://github.com/MillenniumMachines/Milo-V2.0) — mechanical mill (electronics not included in that repo)
