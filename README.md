@@ -15,7 +15,8 @@ This repository contains **STLs**, **panel DXFs**, **master CAD**, the **bill of
 | Bill of materials and contactor options | [Sourcing guide](https://millenniummachines.github.io/docs/ueb/bom/sourcing_guide/) |
 | Print profiles and printed parts | [Printing guide](https://millenniummachines.github.io/docs/ueb/printing/print_guide/) |
 | Mains, E-stop, PSU, and signal wiring | [Millennium Universal CNC wiring .pdf](Millennium%20Universal%20CNC%20wiring%20.pdf) |
-| Milo mechanical build, RRF, pre-flight | [MiloV2-Manual.pdf](https://github.com/MillenniumMachines/Milo-V2.0/blob/main/Manual/MiloV2-Manual.pdf) |
+| Milo mechanical build | [MiloV2-Manual.pdf](https://github.com/MillenniumMachines/Milo-V2.0/blob/main/Manual/MiloV2-Manual.pdf) |
+| RRF setup and pre-flight checks | [Installing RRF](https://millenniummachines.github.io/docs/milo_2.0/install_rrf/) |
 
 Source spreadsheets in this repo (also reflected on the docs site):
 
